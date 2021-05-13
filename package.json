@@ -1,6 +1,6 @@
 {
-  "name": "@emiketic/hygen-emiketic-react",
-  "version": "1.0.1",
+  "name": "hygen-emiketic-react",
+  "version": "1.0.2",
   "private": false,
   "publishConfig": {
     "access": "public"
