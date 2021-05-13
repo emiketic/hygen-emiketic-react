@@ -1,0 +1,33 @@
+{
+  "name": "@emiketic/hygen-emiketic-react",
+  "version": "1.0.0",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Hygen generators based on the EMIKETIC React / JavaScript standard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emiketic/hygen-emiketic-react.git"
+  },
+  "keywords": [
+    "hygen",
+    "generator",
+    "boilerplate",
+    "emiketic",
+    "react",
+    "react-native",
+    "react",
+    "gatsby"
+  ],
+  "author": "EMIKETIC Technologies <contact@emiketic.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emiketic/hygen-emiketic-react/issues"
+  },
+  "homepage": "https://github.com/emiketic/hygen-emiketic-react#readme"
+}
