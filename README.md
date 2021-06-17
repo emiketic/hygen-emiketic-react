@@ -76,7 +76,7 @@ message: |
 
 ### Gatsby (_WIP_)
 
-- [ ] Page scaffold
-- [ ] Component generation (shared or for page)
+- [X] Page scaffold
+- [X] Component generation (shared or for page)
 - [ ] Static localized page
 - [ ] Dynamic localized page
