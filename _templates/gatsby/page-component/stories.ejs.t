@@ -1,5 +1,5 @@
 ---
-to: "<%= page ? `src/page-components/${h.changeCase.pascal(page)}/${h.changeCase.pascal(name)}/stories.mdx` : `src/shared/UIKit/${h.changeCase.pascal(name)}/stories.mdx`  %>"
+to: "<%= `src/page-components/${h.changeCase.pascal(page)}/${h.changeCase.pascal(name)}/stories.mdx`%>"
 ---
 <% const componentName = h.changeCase.pascal(name) -%>
 <% const componentPath = h.inflection.dasherize(h.inflection.underscore(name)) -%>
