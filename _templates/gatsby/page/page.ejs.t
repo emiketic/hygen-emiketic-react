@@ -2,6 +2,7 @@
 to: src/pages/<%= h.inflection.dasherize(h.inflection.underscore(name)) %>.js
 ---
 <% const pageName = h.changeCase.pascal(name) -%>
+<% const pagePath = h.inflection.dasherize(h.inflection.underscore(name)) -%>
 <% const pageTitle = h.inflection.humanize(h.inflection.underscore(name)) -%>
 /* -------------------------------------------------------------------------- */
 /*                                Dependencies                                */
@@ -20,6 +21,9 @@ import PageLayout from '../shared/PageLayout';
 import Seo from '../shared/Seo';
 import SampleComponent from '../page-components/<%= pageName %>/SampleComponent';
 
+// Style
+import '../page-styles/<%= pageName %>.scss';
+
 /* -------------------------------------------------------------------------- */
 /*                                    Page                                    */
 /* -------------------------------------------------------------------------- */
@@ -28,7 +32,7 @@ function <%= pageName %>() {
   return (
     <PageLayout>
       <Seo title="<%= pageTitle %>" />
-      <Container fluid>
+      <Container className="<%= pagePath %>" fluid>
         <h1>Hi from the second page</h1>
         <p>Welcome to page 2</p>
         <StaticImage
