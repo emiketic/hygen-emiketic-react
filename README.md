@@ -78,5 +78,5 @@ message: |
 
 - [X] Page scaffold
 - [X] Component generation (shared or for page)
-- [ ] Static localized page
-- [ ] Dynamic localized page
+- [X] Static localized page
+- [X] Dynamic localized page
